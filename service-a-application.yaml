@@ -4,6 +4,6 @@ spring:
 app:
   title: Service A
   username: haohx
-  pass: 123456
+  pass: 1234567
 server:
   port: 8081
