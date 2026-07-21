@@ -4,7 +4,7 @@ spring:
   config:
     import: optional:configserver:http://localhost:8888
 app:
-  title: Service A
+  title: Service HHH
   username: user-a
   pass: 1234567
 server:
