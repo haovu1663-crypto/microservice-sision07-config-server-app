@@ -2,7 +2,7 @@ spring:
   application:
     name: service-a
   config:
-    import: optional:configserver:http://localhost:8888/
+    import: optional:configserver:http://localhost:8888
 app:
   title: Service HHH
   username: user-a
