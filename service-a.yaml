@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: service-a
+  config:
+    import: optional:configserver:http://localhost:8888
+app:
+  title: Service A
+  username: user-a
+  pass: 1234567
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: service-a
-app:
-  title: Service A
-  username: haohx
-  pass: 1234567
-server:
-  port: 8081
